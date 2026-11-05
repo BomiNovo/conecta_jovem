@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta>
+    <title>ConectaJovem</title>
+    <link rel="stylesheet" href="./style.css"/>
+  </head>
+  <body data-page="galeria">
+
+    <header class="cabecalho">
+      <a class="marca" href="./index.html">✦ Conecta<strong>Jovem</strong></a>
+
+      <button
+        class="botao-menu"
+        type="button"
+        aria-label="Abrir menu"
+        aria-expanded="false"
+      >
+
+        <img src="./assents/icones/menu.svg" alt="" />
+      </button>
+      <nav class="menu" aria-label="Navegação principal">
+        <a class="link-menu" href="./index.html"
+          ><img src="./assents/icones/home.svg" alt="" /><span>Início</span></a
+        >
+        <a class="link-menu ativo" href="galeria.html"
+          ><img src="./assents/icones/grid.svg" alt="" /><span>Galeria</span></a
+        >
+        <a class="link-menu" href="sobre.html"
+          ><img src="./assents/icones/info.svg" alt="" /><span>Sobre</span></a
+        >
+      </nav>
+    </header>
+
+    <aside class="menu-tablet" aria-label="Navegação principal">
+      <a href="./index.html" aria-label="Início"
+        ><img src="./assents/icones/home.svg" alt=""
+      /></a>
+      <a class="ativo" href="./galeria.html" aria-label="Galeria"
+        ><img src="./assents/icones/grid.svg" alt=""
+      /></a>
+      <a href="./sobre.html" aria-label="Sobre"
+        ><img src="./assents/icones/info.svg" alt=""
+      /></a>
+    </aside>
+
+    <main class="conteudo pagina-galeria">
+      <section class="introducao">
+
+        <span class="selo">
+          EXPLORE E DESCUBRA
+        </span>
+
+        <h1>
+          Galeria de experiências
+      </section>
+
+      <div class="filtros" aria-label="Filtrar imagens">
+        <button class="filtro ativo" data-filtro="Todas" type="button">
+          Todas
+        </button>
+        <button class="filtro" data-filtro="Cultura" type="button">
+          Cultura
+        </button>
+
+        <button class="filtro" data-filtro="Criatividade" type="button">
+          Criatividade
+        </button>
+        <button class="filtro" data-filtro="Descobertas" type="button">
+          Descobertas
+        </button>
+      </div>
+
+      <p class="contador" aria-live="polite">
+        9 de 9 imagens exibidas
+      </p>
+
+      <section class="galeria" aria-label="Galeria de imagens">
+        <article
+          class="item-galeria destaque-01"
+          tabindex="0"
+          role="button"
+          data-arquivo="foto01.jpg"
+          data-titulo="Novas perspectivas"
+          data-categoria="Descobertas"
+          data-descricao="Novas perspectivas"
+        >
+          <img
+            src="./assents/imagens/foto01.jpg"
+            alt="Festival de música"
+          />
+          <div class="legenda">
+            <h2>
+              Novas perspectivas
+            </h2>
+            <p>
+              Conecta Jovem / 01
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="item-galeria"
+          tabindex="0"
+          role="button"
+          data-arquivo="foto02.jpg"
+          data-titulo="Universo Gamer"
+          data-categoria="Cultura"
+          data-descricao="Universo Gamer"
+        >
+          <img
+            src="./assents/imagens/foto02.jpg"
+            alt="Universo gamer"
+          />
+          <div class="legenda">
+            <h2>
+              Universo Gamer
+            </h2>
+
+            <p>
+              Conecta Jovem / 02
+            </p>
+
+          </div>
+        </article>
+
+        <article
+          class="item-galeria vertical"
+          tabindex="0"
+          role="button"
+          data-arquivo="foto03.jpg"
+          data-titulo="Olhar criativo"
+          data-categoria="Criatividade"
+          data-descricao="Olhar criativo"
+        >
+          <img
+            src="./assents/imagens/foto03.jpg"
+            alt="Arte urbana"
+          />
+
+          <div class="legenda">
+            <h2>
+              Olhar criativo
+            </h2>
+
+            <p>
+              Conecta Jovem / 03
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="item-galeria"
+          tabindex="0"
+          role="button"
+          data-arquivo="foto04.jpg"
+          data-titulo="Novas ideias"
+          data-categoria="Descobertas"
+          data-descricao="Novas ideias"
+        >
+          <img
+            src="./assents/imagens/foto04.jpg"
+            alt="Esportes em Movimento"
+          />
+
+          <div class="legenda">
+            <h2>
+              Novas ideias
+            </h2>
+
+            <p>
+              Conecta Jovem / 04
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="item-galeria horizontal"
+          tabindex="0"
+          role="button"
+          data-arquivo="foto05.jpg"
+          data-titulo="Expressão"
+          data-categoria="Criatividade"
+          data-descricao="Expressão"
+        >
+          <img
+            src="./assents/imagens/foto05.jpg"
+            alt="Tecnologia Criativa"
+          />
+
+          <div class="legenda">
+            <h2>
+              Expressão
+            </h2>
+
+            <p>
+              Conecta Jovem / 05
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="item-galeria"
+          tabindex="0"
+          role="button"
+          data-arquivo="foto06.jpg"
+          data-titulo="Universo pop"
+          data-categoria="Cultura"
+          data-descricao="Universo pop"
+        >
+          <img
+            src="./assents/imagens/foto06.jpg"
+            alt="Cinema e História"
+          />
+
+          <div class="legenda">
+            <h2>
+              Universo pop
+            </h2>
+
+            <p>
+              Conecta Jovem / 06
+            </p>
+          </div>
+        </article>
+
+        <article
+          class="item-galeria"
+          tabindex="0"
+          role="button"
+          data-arquivo="foto07.jpg"
+          data-titulo="Inspiração diária"
+          data-categoria="Cultura"
+          data-descricao="Inspiração diária"
+        >
+          <img
+            src="./assents/imagens/foto07.jpg"
+            alt="Natureza e Aventura"
+          />
+
+          <div class="legenda">
+            <h2>
+              Inspiração diária
+            </h2>
+
+            <p>
+              Conecta Jovem / 07
+            </p>
+          </div>
+
+        </article>
+
+        <article
+          class="item-galeria horizontal"
+          tabindex="0"
+          role="button"
+          data-arquivo="foto08.jpg"
+          data-titulo="Criar e compartilhar"
+          data-categoria="Criatividade"
+          data-descricao="Criar e compartilhar"
+        >
+          <img
+            src="./assents/imagens/foto08.jpg"
+            alt="Fotografia jovem"
+          />
+
+          <div class="legenda">
+            <h2>
+              Criar e compartilhar
+            </h2>
+
+            <p>
+              Conecta Jovem / 08
+            </p>
+          </div>
+
+        </article>
+
+        <article
+          class="item-galeria horizontal"
+          tabindex="0"
+          role="button"
+          data-arquivo="foto09.jpg"
+          data-titulo="Ciência no dia a dia"
+          data-categoria="Descobertas"
+          data-descricao="Ciência no dia a dia"
+        >
+          <img
+            src="./assents/imagens/foto09.jpg"
+            alt="Ciência no dia a dia"
+          />
+
+          <div class="legenda">
+            <h2>
+              Curiosidade sem fim
+            </h2>
+
+            <p>
+              Conecta Jovem / 09
+            </p>
+          </div>
+        </article>
+
+      </section>
+
+    </main>
+
+    <div
+      class="modal"
+      aria-hidden="true"
+      role="dialog"
+      aria-modal="true"
+      aria-label="Imagem ampliada"
+    >
+      <div class="modal-conteudo">
+        <button class="fechar-modal" type="button" aria-label="Fechar imagem">
+          <img
+            src="./assents/icones/close.svg"
+            alt=""
+          />
+        </button>
+
+          <button
+            class="seta-modal anterior"
+            type="button"
+            aria-label="Imagem anterior"
+          >
+            <img src="./assents/icones/left.svg" alt="" />
+          </button>
+
+        <img class="imagem-modal" src="" alt="" />
+
+          <button
+            class="seta-modal proxima"
+            type="button"
+            aria-label="Próxima imagem"
+          >
+            <img
+              src="./assents/icones/right.svg"
+              alt=""
+            />
+          </button>
+        
+        <div class="info-modal">
+
+          <div>
+            <h2 class="titulo-modal"></h2>
+            <p class="descricao-modal"></p>
+          </div>
+      
+          <span class="posicao-modal"></span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <script src="./script.js" defer></script>
+  </body>
+</html>
