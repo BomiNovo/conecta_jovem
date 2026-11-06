@@ -324,8 +324,8 @@ h2 {
 }
 
 .galeria.filtrada .item-galeria {
-  grid-column: auto !important;
-  grid-row: auto !important;
+  grid-column: auto;
+  grid-row: auto;
   aspect-ratio: 4 / 3;
 }
 
